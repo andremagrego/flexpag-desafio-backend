@@ -6,4 +6,6 @@ import com.flexpag.paymentscheduler.model.Payment;
 
 public interface PaymentRepository extends JpaRepository<Payment, Integer> {
 
+    Payment findByNomeLike(String nome);
+
 }
