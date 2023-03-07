@@ -45,3 +45,5 @@ public class Payment {
     @Column(name = "status", length = 45)
     private boolean status;
 }
+
+//A ideia dos atributos "periodFrom/periodTo/payDay" é definir um dia de pagamento a se repetir, dentro de um período de tempo. 
